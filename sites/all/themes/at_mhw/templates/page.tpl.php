@@ -38,14 +38,27 @@
 							<?php print render($page['header']); ?>
 						<?php endif; ?>
 					</div><!-- end .section-3 -->
+					<div class="section-4 clearfix">
+						<?php if ($page['header_bottom']): ?>
+							<?php print render($page['header_bottom']); ?>
+						<?php endif; ?>
+					</div><!-- end .section-4 -->
+					<div class="region region-content-top">
+						<?php if ($page['content_top']): ?>
+							<?php print render($page['content_top']); ?>
+						<?php endif; ?>
+					</div><!-- end .content_top -->
+					<div id="main" class="clearfix">
+						<?php if ($content = render($page['content'])): ?>
+							<div id="content" class="region">
+								<?php print $content; ?>
+							</div>
+						<?php endif; ?>
+					</div><!-- end .main -->
 				</div>
 			</div>
 		</div>
-		<?php if ($content = render($page['content'])): ?>
-			<div id="content" class="region">
-				<?php print $content; ?>
-			</div>
-		<?php endif; ?>
+		
 	</div><!-- /end .main-bg -->
 
 	<!-- !Footer -->

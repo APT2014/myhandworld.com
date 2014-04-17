@@ -82,9 +82,11 @@
   regions[header]            = Header
   regions[header_left]       = Header Left
   regions[header_right]      = Header Right
+  regions[header_bottom]	 = Header Bottom
   regions[main_menu]         = Main Menu
   regions[sidebar_first]     = Sidebar First
   regions[sidebar_second]    = Sidebar Second
+  regions[content_top]       = Content Top
   regions[content]           = Content
   regions[highlighted]       = Highlighted
   regions[content_aside]     = Aside

@@ -175,6 +175,28 @@ ul li {
 	
 }
 
+.section-3 .view-content {
+    position: relative;
+}
+.section-3 .view-content .views-slideshow-controls-bottom {
+    position: absolute;
+    bottom: 50px;
+    z-index: 1000;
+    width: 200px;
+    right: 0px;
+}
+.section-3 .view-content .views-slideshow-controls-bottom .views-content-nid {
+    text-indent: -9999px;
+    width: 19px;
+    height: 19px;
+    background: url(/sites/all/themes/APT_Pro/images/slider-nav.png) 100% 0 no-repeat;
+    margin: 0 5px 0 0;
+    float: left;
+}
+.section-3 .view-content .views-slideshow-controls-bottom .active .views-content-nid {
+    background: url(/sites/all/themes/APT_Pro/images/slider-nav.png) 0 0 no-repeat;
+}
+
 .region-header-right {
 	padding-top: 50px;
 }

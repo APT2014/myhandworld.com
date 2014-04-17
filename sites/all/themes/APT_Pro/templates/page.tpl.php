@@ -1,0 +1,97 @@
+<div id="page">
+	<div class="main-bg">
+		<header id="header" role="banner" class="clearfix">
+			<div class="container-12">
+				<div class="grid-12">
+					<div class="section-1 clearfix">
+						<div class="grid-4 alpha">
+							<?php if ($page['header_left']): ?>
+								<?php print render($page['header_left']); ?>
+							<?php endif; ?>
+						</div>
+						<div class="grid-4">
+							<?php if ($logo):?>
+								<a id="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"> <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /> </a>
+							<?php endif; ?>
+						</div>
+						<div class="grid-4 omega">
+							<?php if ($page['header_right']): ?>
+								<?php print render($page['header_right']); ?>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="main-wrapper">
+			<div class="container-12">
+				<div class="grid-12">
+					<div class="section-2 clearfix">
+						<div class="search">							
+							<?php if ($main_menu): ?>
+									<?php print render($page['main_menu']); ?>
+							<?php endif; ?>
+						</div>
+					</div>
+					<div class="section-3 clearfix">
+						<?php print render($page['slideshow']); ?>
+					</div>
+					<div class="section-4 clearfix">
+						<?php if ($page['header_bottom']): ?>
+							<div class="region region-header-bottom">
+								<?php print render($page['header_bottom']); ?>
+							</div>
+						<?php endif; ?>
+					</div>
+					<div class="region region-content-top">
+						<?php if($page['content_top']): ?>
+							<div id="block-block-9" class="block block-block grid-8 alpha block-welcome block-even">
+								<h1><?php print $title; ?></h1>
+								<?php print render($tabs); ?>
+								<?php print render($page['content_top']); ?>
+							</div>
+						<?php endif; ?>
+						<?php if($page['sidebar_right']): ?>
+							<div id="block-block-10" class="block block-block grid-4 omega block-table block-odd">
+								<?php print render($page['sidebar_right']); ?>
+							</div>
+						<?php endif; ?>
+					</div>
+					<div id="main" class="clearfix">
+						<div id="content" class="column grid-12 alpha omega  " role="main">
+							<div class="section">
+								<h1 class="title" id="page-title">Welcome to My Hand World</h1>
+								<div class="tabs"></div>
+								<?php if($page['content']): ?>
+									<?php print render($page['content']); ?>
+								<?php endif; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" role="contentinfo">
+		<div class="footer-top-wrapper">
+			<div class="footer-top-shadow clearfix">
+				<div class="container-12">
+					<div class="grid-12">
+						<div class="region region-footer-top">
+							<?php if ($page['footer_top']): ?>
+								<?php print render($page['footer_top']); ?>
+							<?php endif; ?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-wrapper clearfix">
+			<div class="container-12">
+				<div class="grid-12">
+					<?php print render($page['footer']); ?>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>

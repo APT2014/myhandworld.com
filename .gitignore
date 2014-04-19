@@ -5,10 +5,9 @@ sites/*/*settings*.php
 # cache/
 # files/
 sites/*/files
-# sites/*/private
+sites/*/private
 sites/all/modules
 sites/all/libraries
-sites/default/files
 
 # Ignore default text files
 .htaccess

@@ -13,8 +13,8 @@
 ;----------// Stylesheets
 
   ; See each stylesheet for extensive documentation and help.
-  stylesheets[screen and (max-width:1000px)][] = css/skeleton-mobile.css
-  stylesheets[screen and (max-width:1000px)][] = css/style-mobile.css
+  stylesheets[screen and (max-width:600px)][] = css/skeleton-mobile.css
+  stylesheets[screen and (max-width:600px)][] = css/style-mobile.css
   stylesheets[screen][] = css/widget119.css
   stylesheets[screen][] = css/boilerplate.css
   ;stylesheets[screen][] = css/superfish.css

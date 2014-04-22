@@ -43,17 +43,19 @@
 							<?php print render($page['header_bottom']); ?>
 						<?php endif; ?>
 					</div><!-- end .section-4 -->
-					<div class="region region-content-top">
-						<div id="block-block-9" class="block block-block grid-8 alpha block-welcome block-even">
-							<?php if ($page['content_top']): ?>
+					<?php if ($page['content_top']): ?>
+						<?php print render($tabs); ?>
+						<?php print render($page['content_top']); ?>
+					<?php endif; ?>
+					<div id="main" class="clearfix">
+						<div id="content" class="column grid-12 alpha omega  " role="main">
+							<div class="section">
+								<h1 class="title" id="page-title">Welcome to My Hand World</h1>
 								<?php print render($tabs); ?>
-								<?php print render($page['content_top']); ?>
-							<?php endif; ?>
-						</div>
-						<div id="block-block-10" class="block block-block grid-4 omega block-table block-odd">
-							<?php if ($page['sidebar_right']): ?>
-								<?php print render($page['sidebar_right']); ?>
-							<?php endif; ?>
+								<?php if ($page['content']): ?>
+									<?php print render($page['content']); ?>
+								<?php endif; ?>
+							</div>
 						</div>
 					</div>
 				</div>

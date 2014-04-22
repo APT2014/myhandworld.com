@@ -90,14 +90,14 @@
   regions[sidebar_second]    = Sidebar Second
   regions[content_top]       = Content Top
   regions[content]           = Content
-  regions[highlighted]       = Highlighted
-  regions[content_aside]     = Aside
-  regions[secondary_content] = Secondary
-  regions[tertiary_content]  = Tertiary
-  regions[leaderboard]       = Leaderboard
-  regions[help]              = Help
-  regions[page_top]          = Page Top
-  regions[page_bottom]       = Page Bottom
+  ;regions[highlighted]       = Highlighted
+  ;regions[content_aside]     = Aside
+  ;regions[secondary_content] = Secondary
+  ;regions[tertiary_content]  = Tertiary
+  ;regions[leaderboard]       = Leaderboard
+  ;regions[help]              = Help
+  ;regions[page_top]          = Page Top
+  ;regions[page_bottom]       = Page Bottom
   regions[footer_top]        = Footer Top
   regions[footer]            = Footer
 

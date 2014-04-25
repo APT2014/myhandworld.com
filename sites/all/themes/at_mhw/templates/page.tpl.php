@@ -50,8 +50,6 @@
 					<div id="main" class="clearfix">
 						<div id="content" class="column grid-12 alpha omega  " role="main">
 							<div class="section">
-								<h1 class="title" id="page-title">Welcome to My Hand World</h1>
-								<?php print render($tabs); ?>
 								<?php if ($page['content']): ?>
 									<?php print render($page['content']); ?>
 								<?php endif; ?>

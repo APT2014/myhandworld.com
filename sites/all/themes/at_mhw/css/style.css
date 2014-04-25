@@ -1380,11 +1380,11 @@ ul.links li a {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3c3c3', endColorstr='#b1b1b1',GradientType=0 ); /* IE6-8 */
 }
 
-#block-block-3 {
+#block-block-1 {
 	
 }
 
-#block-block-3 .content {
+#block-block-1 .content {
 	font-family: 'Bitter', serif;
 	font-size: 14px;
 	line-height: 24px;
@@ -1392,15 +1392,38 @@ ul.links li a {
 	text-align: center;
 	color: #e6e6e6;
 }
-	#block-block-3 .content a {
+	#block-block-1 .content a {
 		color: #e6e6e6;
 	}
 
-		#block-block-3 .content a:hover {
+		#block-block-1 .content a:hover {
 			color: #fff;
 		}
 
-	#block-block-3 .content span {
+	#block-block-1 .content span {
+		font-weight: 700;
+	}
+#block-block-1 {
+	
+}
+
+#block-block-2 .content {
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 400;
+	text-align: center;
+	color: #444444;
+}
+	#block-block-2 .content a {
+		color: #444444;
+	}
+
+		#block-block-2 .content a:hover {
+			color: #fff;
+		}
+
+	#block-block-2 .content span {
 		font-weight: 700;
 	}
 

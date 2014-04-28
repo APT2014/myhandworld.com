@@ -126,7 +126,6 @@ hide($content['links']);
       <p class="author-datetime"><?php print $submitted; ?></p>
     </footer>
   <?php endif; ?>
-
   <div<?php print $content_attributes; ?>>
     <?php print render($content); ?>
   </div>

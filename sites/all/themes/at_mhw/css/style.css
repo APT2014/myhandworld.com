@@ -2063,3 +2063,9 @@ label.option {vertical-align:middle;}
 	margin-right: 0;
 	border: none;
 }
+
+/* ------------------------- PHUONG EDIT ------------------------- */
+.region.region-sidebar-second {
+	width: 100%;
+	margin-left: 0%;
+}

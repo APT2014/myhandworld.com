@@ -2069,3 +2069,8 @@ label.option {vertical-align:middle;}
 	width: 100%;
 	margin-left: 0%;
 }
+
+.region.region-sidebar-first {
+	width: 100%;
+	margin-left: 0%;
+}

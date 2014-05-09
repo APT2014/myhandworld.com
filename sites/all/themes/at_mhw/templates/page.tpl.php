@@ -48,19 +48,50 @@
 						<?php print render($page['content_top']); ?>
 					<?php endif; ?>
 					<div id="main" class="clearfix">
-						<?php if($page['sidebar_second']): ?>
-							<div id="content" class="column grid-8 alpha" role="main">
+						<?php if ($page['sidebar_first'] && $page['sidebar_second']): ?>
+							<aside id="sidebar-first" class="column grid-3 alpha" role="complementary">
+								<div class="section">
+									<?php print render($page['sidebar_first']); ?>
+								</div>
+							</aside>
+							<div id="content" class="column grid-6 alpha omega" role="main">
+								<div class="section">
+									<?php if ($page['content']): ?>
+										<?php print render($page['content']); ?>
+									<?php endif; ?>
+								</div>
+							</div>
+							<aside id="sidebar-second" class="column grid-3 omega" role="complementary">
+								<div class="section">
+									<?php print render($page['sidebar_second']); ?>
+								</div>
+							</aside>
+						<?php elseif($page['sidebar_first']): ?>
+							<aside id="sidebar-first" class="column grid-3 alpha" role="complementary">
+								<div class="section">
+									<?php print render($page['sidebar_first']); ?>
+								</div>
+							</aside>
+							<div id="content" class="column grid-9 omega" role="main">
 								<div class="section">
 									<?php if ($page['content']): ?>
 										<?php print render($page['content']); ?>
 									<?php endif; ?>
 								</div>
 							</div>	
-							<aside id="sidebar-second" class="column grid-4 omega" role="complementary">
+						<?php elseif($page['sidebar_second']): ?>
+							<div id="content" class="column grid-9 alpha" role="main">
+								<div class="section">
+									<?php if ($page['content']): ?>
+										<?php print render($page['content']); ?>
+									<?php endif; ?>
+								</div>
+							</div>
+							<aside id="sidebar-second" class="column grid-3 omega" role="complementary">
 								<div class="section">
 									<?php print render($page['sidebar_second']); ?>
 								</div>
-							</aside>
+							</aside>						
 						<?php else: ?>
 							<div id="content" class="column grid-12 alpha omega" role="main">
 								<div class="section">

@@ -92,3 +92,24 @@ function adaptivetheme_subtheme_preprocess_block(&$vars) {
 function adaptivetheme_subtheme_process_block(&$vars) {
 }
 // */
+
+/**
+ * Custom template files for user login and registration pages
+ */
+
+function at_mhw_theme() {
+ $items = array();
+   
+ $items['user_login'] = array(
+   'render element' => 'form',
+   'path' => drupal_get_path('theme', 'at_mhw') . '/templates',
+   'template' => 'user-login',
+ );
+ $items['user_register_form'] = array(
+   'render element' => 'form',
+   'path' => drupal_get_path('theme', 'at_mhw') . '/templates',
+   'template' => 'user-register-form',
+ );
+ 
+ return $items;
+}

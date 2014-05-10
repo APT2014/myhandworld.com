@@ -155,11 +155,6 @@
 						<div class="g-plus" data-href="<?php print $front_page; ?>" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
 					</td>
 				</tr>
-				<tr style="border:none !important;background:none !important;">
-					<td style="border:none !important;background:none !important;">
-						<a href="<?php print $front_page; ?>" class="twitter-share-button" data-lang="en" data-count="vertical">Tweet</a>
-					</td>
-				</tr>
 			</tbody>
 		</table>
 	</div>

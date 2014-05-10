@@ -126,6 +126,11 @@ hide($content['links']);
       <p class="author-datetime"><?php print $submitted; ?></p>
     </footer>
   <?php endif; ?>
+	
+	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+	<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>
+	<a href="<?php print $node_url; ?>" class="twitter-share-button" data-lang="en">Tweet</a>
+	
   <div<?php print $content_attributes; ?>>
     <?php print render($content); ?>
   </div>

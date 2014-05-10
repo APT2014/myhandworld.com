@@ -136,5 +136,33 @@
 			<?php print $attribution; ?>
 		</footer>
 	<?php endif; ?>
+	
+	<div class="lrcounter_verticalsimplebox lrcounter-vertical-vertical" style="background-color: transparent; border: 0px solid rgb(221, 221, 221); border-top-left-radius: 6px; border-top-right-radius: 6px; border-bottom-right-radius: 6px; border-bottom-left-radius: 6px; padding: 0px; clear: both; display: inline-block; text-align: center; box-shadow: rgb(209, 209, 209) 0px 0px 0px inset; z-index: 9999; left: 0px; top: 80px; position: fixed;">
+		<table style="border:none !important;background:none !important;">
+			<tbody style="border:none !important;background:none !important;">
+				<tr style="border:none !important;background:none !important;">
+					<td style="border:none !important;background:none !important;">
+						<div class="fb-like" data-href="<?php print $front_page; ?>" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+					</td>
+				</tr>
+				<tr style="border:none !important;background:none !important;">
+					<td style="border:none !important;background:none !important;">
+						<div class="g-plusone" data-href="<?php print $front_page; ?>" data-size="tall"></div>
+					</td>
+				</tr>
+				<tr style="border:none !important;background:none !important;">
+					<td style="border:none !important;background:none !important;">
+						<div class="g-plus" data-href="<?php print $front_page; ?>" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+					</td>
+				</tr>
+				<tr style="border:none !important;background:none !important;">
+					<td style="border:none !important;background:none !important;">
+						<a href="<?php print $front_page; ?>" class="twitter-share-button" data-lang="en" data-count="vertical">Tweet</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	
 </div>
 

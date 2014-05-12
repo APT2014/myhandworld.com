@@ -2080,23 +2080,12 @@ label.option {vertical-align:middle;}
 	display: table;
 }
 
-.region.region-sidebar-first section {
-	padding-bottom: 5px;
-	margin-bottom: 20px;
+#sidebar-first .block.block-menu {
+	padding: 0px 0px 0px 0px;
 	box-shadow: 0px 0px 40px rgba(0,0,0,0.5);
+	margin-bottom: 20px;
 	background: #fff;
 	border-radius: 10px 10px 10px 10px;
-}
-
-#sidebar-first .block {
-	padding-bottom: 0px !important;
-}
-
-#sidebar-first .block .content li a {
-	line-height: 20px;
-	text-decoration: none;
-	color: #444;
-	text-transform: none;
 }
 
 .region.region-sidebar-first h2 {
@@ -2108,7 +2097,7 @@ label.option {vertical-align:middle;}
 	text-transform: uppercase;
 	font-family: 'Bitter', serif;
 	color: #fff;
-	padding-left: 26px;
+	text-align: center;
 	padding-bottom: 5px;
 	border-radius: 10px 10px 0px 0px;
 }
@@ -2121,13 +2110,21 @@ label.option {vertical-align:middle;}
 	width: 92%;
 }
 
-.region.region-sidebar-first ul li {
+.region.region-sidebar-first ul li a {
 	display: block;
 	font-size: 14px;
 	padding: 7px 5px 5px 5px;
 	font-family: Georgia, Times New Roman, Times, serif;
 	font-weight: bold;
 	border-bottom: dotted 1px #f7a23f;
+	line-height: 20px;
+	text-decoration: none;
+	color: #444;
+	text-transform: none;
+}
+
+#sidebar-first li a.active {
+	color: #f7a23f;
 }
 
 /* --------------------- Content ------------------- */
@@ -2137,7 +2134,6 @@ label.option {vertical-align:middle;}
 	box-shadow: 0px 0px 40px rgba(0,0,0,0.5);
 	background: #fff;
 }
-
 
 table {
 border: 0;

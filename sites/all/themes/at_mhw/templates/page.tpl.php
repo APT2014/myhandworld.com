@@ -49,12 +49,12 @@
 					<?php endif; ?>
 					<div id="main" class="clearfix">
 						<?php if ($page['sidebar_first'] && $page['sidebar_second']): ?>
-							<aside id="sidebar-first" class="column grid-3 alpha" role="complementary">
+							<aside id="sidebar-first" class="column grid-2 alpha" role="complementary">
 								<div class="section">
 									<?php print render($page['sidebar_first']); ?>
 								</div>
 							</aside>
-							<div id="content" class="column grid-6 alpha omega" role="main">
+							<div id="content" class="column grid-7 alpha omega" role="main">
 								<div class="section">
 									<?php if ($page['content']): ?>
 										<?php print render($page['content']); ?>
@@ -67,12 +67,12 @@
 								</div>
 							</aside>
 						<?php elseif($page['sidebar_first']): ?>
-							<aside id="sidebar-first" class="column grid-3 alpha" role="complementary">
+							<aside id="sidebar-first" class="column grid-2 alpha" role="complementary">
 								<div class="section">
 									<?php print render($page['sidebar_first']); ?>
 								</div>
 							</aside>
-							<div id="content" class="column grid-9 omega" role="main">
+							<div id="content" class="column grid-10 omega" role="main">
 								<div class="section">
 									<?php if ($page['content']): ?>
 										<?php print render($page['content']); ?>

@@ -71,6 +71,7 @@
 <?php print $polyfills; ?>
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
+	<script src="js/bootstrap.min.js"></script>
 <!-- Facebook SDK -->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {

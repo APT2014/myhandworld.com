@@ -13,13 +13,14 @@
 ;----------// Stylesheets
 
   ; See each stylesheet for extensive documentation and help.
-  stylesheets[screen and (max-width:1366px)][] = css/skeleton-mobile.css
-  stylesheets[screen and (max-width:1366px)][] = css/style-mobile.css
-  stylesheets[screen][] = css/widget119.css
-  stylesheets[screen][] = css/boilerplate.css
+  ;stylesheets[screen and (max-width:1366px)][] = css/skeleton-mobile.css
+  ;stylesheets[screen and (max-width:1366px)][] = css/style-mobile.css
+  ;stylesheets[screen][] = css/widget119.css
+  ;stylesheets[screen][] = css/boilerplate.css
   ;stylesheets[screen][] = css/superfish.css
-  stylesheets[screen][] = css/style.css
-  stylesheets[screen][] = css/skeleton.css
+  stylesheets[all][] = css/style.css
+  ;stylesheets[screen][] = css/skeleton.css
+  stylesheets[all][] = bootstrap/css/bootstrap.css
   
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css

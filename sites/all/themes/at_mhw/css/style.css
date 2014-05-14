@@ -2157,9 +2157,9 @@ label.option {vertical-align:middle;}
 	padding: 0px 10px 10px 10px;
 }
 
-#sidebar-second .block.block-custom-search-blocks .content .search-form .form-text {
+/*#sidebar-second .block.block-custom-search-blocks .content .search-form .form-text {
 	width: 235px;
-}
+}*/
 
 #sidebar-second .block.block-custom-search-blocks .content .search-form .form-select {
 	border-radius: 10px;

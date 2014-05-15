@@ -480,7 +480,3 @@
 
   ; Custom CSS
   settings[custom_css] = ''
-
-  settings[facebook_url] = 'http://facebook.com/'
-  settings[twitter_url] = 'http://twitter.com/'
-  settings[social_display] = 1

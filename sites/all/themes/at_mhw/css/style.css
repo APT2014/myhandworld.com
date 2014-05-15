@@ -2173,29 +2173,6 @@ label.option {vertical-align:middle;}
 	-moz-border-radius: 10px;
 }
 
-table {
-border: 0;
-border-spacing: 0;
-font-size: 0.857em;
-margin: 10px 0;
-width: 100%;
-border-collapse: collapse;
-display: table;
-}
-
-tbody {
-border-top: 1px solid #ccc;
-display: table-row-group;
-vertical-align: middle;
-border-color: inherit;
-border: 0;
-border-spacing: 0;
-font-size: 0.857em;
-margin: 10px 0;
-width: 100%;
-border-collapse: collapse;
-}
-
 .container {
 	padding-right: 8px !important;
 	padding-left: 0px !important;

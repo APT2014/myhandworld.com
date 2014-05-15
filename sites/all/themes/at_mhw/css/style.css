@@ -2197,7 +2197,7 @@ border-collapse: collapse;
 }
 
 .container {
-	padding-right: 0px !important;
+	padding-right: 8px !important;
 	padding-left: 0px !important;
 }
 #header .container { height: 200px; }

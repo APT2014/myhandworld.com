@@ -2173,10 +2173,7 @@ label.option {vertical-align:middle;}
 	-moz-border-radius: 10px;
 }
 
-.container {
-	padding-right: 8px !important;
-	padding-left: 0px !important;
-}
-#header .container { height: 200px; }
+/* AN STYLE */
+.container { padding-right: 8px !important; padding-left: 0px !important; }
 .section-1 { padding-top: 15px; }
-.region-header-left { padding-top: 0px; }
+.region-header-left { padding-top: 0px; align-center: true; }

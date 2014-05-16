@@ -14,12 +14,13 @@
 
   ; See each stylesheet for extensive documentation and help.
   ;stylesheets[screen][] = css/widget119.css
-  stylesheets[screen][] = css/boilerplate.css
-  stylesheets[all][] = css/style.css
+  ;stylesheets[screen][] = css/boilerplate.css
+  stylesheets[screen][] = css/style.css
   stylesheets[screen and (max-width:1366px)][] = css/style-mobile.css
   ;stylesheets[screen][] = css/skeleton.css
   ;stylesheets[screen and (max-width:1366px)][] = css/skeleton-mobile.css
-  stylesheets[all][] = bootstrap/css/bootstrap.css
+  stylesheets[screen][] = bootstrap/css/bootstrap.min.css
+  stylesheets[screen][] = css/mobile.css
   
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css
@@ -76,6 +77,8 @@
   ; following as a guide:
 
   ; ie_scripts[lte IE 8][] = scripts/my-script.js
+  ;scripts[] = scripts/jquery-1.11.1.min.js
+  scripts[] = bootstrap/js/bootstrap.min.js
 
 ;----------// Regions
 

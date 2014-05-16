@@ -1,0 +1,107 @@
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+   	@media only screen and (min-width: 995px) and (max-width: 1230px) {
+
+		/* #Base 960 Grid
+		================================================== */
+
+	    .container {width: 960px;}
+
+
+	    /* Base Grid */
+	    .container .col-md-1			{ width: 60px;  }
+	    .container .col-md-2			{ width: 140px; }
+	    .container .col-md-3			{ width: 220px; }
+	    .container .col-md-4			{ width: 300px; }
+	    .container .col-md-5			{ width: 380px; }
+	    .container .col-md-6			{ width: 460px; }
+	    .container .col-md-7			{ width: 540px; }
+	    .container .col-md-8			{ width: 620px; }
+	    .container .col-md-9			{ width: 700px; }
+	    .container .col-md-10			{ width: 780px; }
+	    .container .col-md-11			{ width: 860px; }
+	    .container .col-md-12			{ width: 940px; }
+
+	}
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 995px) {
+
+        .container                                  { width: 768px; }
+        .col-md-1,
+		.col-md-2,
+		.col-md-3,
+		.col-md-4,
+		.col-md-5,
+		.col-md-6,
+		.col-md-7,
+		.col-md-8,
+		.col-md-9,
+		.col-md-10,
+		.col-md-11,
+		.col-md-12
+		{ margin-left: 10px; margin-right: 10px;  }
+
+
+		.container .col-md-1 			{ width: 44px; }
+        .container .col-md-2  			{ width: 108px; }
+        .container .col-md-3    		{ width: 172px; }
+        .container .col-md-4 			{ width: 236px; }
+        .container .col-md-5    		{ width: 300px; }
+        .container .col-md-6   		{ width: 364px; }
+        .container .col-md-7 			{ width: 428px; }
+        .container .col-md-8  			{ width: 492px; }
+        .container .col-md-9 			{ width: 556px; }
+        .container .col-md-10			{ width: 620px; }
+        .container .col-md-11			{ width: 684px; }
+        .container .col-md-12			{ width: 748px; }
+
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+
+        .container, .section-2 {width: auto; padding: 0 15px;}
+
+        .col-md-1,
+		.col-md-2,
+		.col-md-3,
+		.col-md-4,
+		.col-md-5,
+		.col-md-6,
+		.col-md-7,
+		.col-md-8,
+		.col-md-9,
+		.col-md-10,
+		.col-md-11,
+		.col-md-12{margin-left: 0; margin-right: 0; display: block; float: none;}
+
+
+        .container .col-md-1,
+        .container .col-md-2,
+        .container .col-md-3,
+        .container .col-md-4,
+        .container .col-md-5,
+        .container .col-md-6,
+        .container .col-md-7,
+        .container .col-md-8,
+        .container .col-md-9,
+        .container .col-md-10,
+        .container .col-md-11,
+        .container .col-md-12{width: auto;}
+
+    }

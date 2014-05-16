@@ -2175,5 +2175,6 @@ label.option {vertical-align:middle;}
 
 /* AN STYLE */
 .container { padding-right: 8px !important; padding-left: 0px !important; }
-.section-1 { padding-top: 15px; }
-.region-header-left { padding-top: 0px; align-center: true; }
+//#header .container { height: 200px; }
+//.section-1 { padding-top: 15px; }
+.region-header-left { padding-top: 0px; }

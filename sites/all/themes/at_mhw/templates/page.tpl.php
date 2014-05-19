@@ -56,6 +56,12 @@
 							</aside>
 							<div id="content" class="column col-md-7 alpha omega" role="main">
 								<div class="section">
+									<?php if ($title): ?>
+										<h1 id="page-title">
+											<?php print $title; ?>
+										</h1>
+									<?php endif; ?>
+									<?php if ($tabs) : ?><div class="user-tabs"><?php print render($tabs); ?></div><?php endif; ?>
 									<?php if ($page['content']): ?>
 										<?php print render($page['content']); ?>
 									<?php endif; ?>
@@ -74,6 +80,12 @@
 							</aside>
 							<div id="content" class="column col-md-10 omega" role="main">
 								<div class="section">
+									<?php if ($title): ?>
+										<h1 id="page-title">
+											<?php print $title; ?>
+										</h1>
+									<?php endif; ?>
+									<?php if ($tabs) : ?><div class="user-tabs"><?php print render($tabs); ?></div><?php endif; ?>
 									<?php if ($page['content']): ?>
 										<?php print render($page['content']); ?>
 									<?php endif; ?>
@@ -82,6 +94,12 @@
 						<?php elseif($page['sidebar_second']): ?>
 							<div id="content" class="column col-md-9 alpha" role="main">
 								<div class="section">
+									<?php if ($title): ?>
+										<h1 id="page-title">
+											<?php print $title; ?>
+										</h1>
+									<?php endif; ?>
+									<?php if ($tabs) : ?><div class="user-tabs"><?php print render($tabs); ?></div><?php endif; ?>
 									<?php if ($page['content']): ?>
 										<?php print render($page['content']); ?>
 									<?php endif; ?>

@@ -664,8 +664,8 @@ article.comment h3 {
 }
 
 #main-wrapper img {
-	height:auto;
-	width: auto;
+	/*height:auto;
+	width: auto;*/
 	max-width: 100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -2064,6 +2064,38 @@ label.option {vertical-align:middle;}
 	border: none;
 }
 
+table {
+border: 0;
+border-spacing: 0;
+font-size: 0.857em;
+margin: 10px 0;
+width: 100%;
+border-collapse: collapse;
+display: table;
+}
+
+tbody {
+border-top: 1px solid #ccc;
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+border: 0;
+border-spacing: 0;
+font-size: 0.857em;
+margin: 10px 0;
+width: 100%;
+border-collapse: collapse;
+}
+.container {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+#header .container { height: 200px; }
+.section-1 { padding-top: 15px; }
+.region-header-left {
+padding-top: 0px;
+}
+
 /* ===================== PHUONG EDIT ===================== */
 #main {
 	padding-top: 10px;
@@ -2171,4 +2203,180 @@ label.option {vertical-align:middle;}
 	padding: 8px 5px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
+<<<<<<< HEAD
 }
+=======
+}
+
+<<<<<<< HEAD
+/* --------------------- guideline/products view ------------------- */
+.products ul
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0 0 0.75em 0;
+}
+
+.products  ul li {
+	width: 31%;
+	margin: 0px 0px 10px 1.8%;
+	padding: 7px 0px 0px 0px;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+
+.products  ul li .box-products {
+	margin-left: 5px;
+	width: 89.7%;
+	height: 309px;
+	background: #fff;
+	padding: 4% 4% 0px 4%;
+	box-shadow: 0px 8px 30px rgba(0,0,0,0.5);
+	position: relative;
+}
+
+.products  ul li .box-products .products-thumb {
+	position: relative;
+}
+
+.products  ul li .box-products .products-thumb img {
+	width: 100%;
+}
+
+.products  ul li .box-products .products-thumb a {
+	display: block;
+	position: relative;
+}
+
+.products .pager li {
+	float: none;
+	margin-left: 0;
+}
+ 
+.products  ul li .box-products .content-box-products .text {
+	text-indent: 1px;
+	height: 60px;
+	vertical-align: bottom;
+}
+
+.products  ul li .box-products .content-box-products .text p a {
+	font: 16px "Georgia", Times New Roman, Times, serif;
+	color: #024e9b;
+	line-height: 1.1em;
+}
+
+.products  ul li .box-products .content-box-products .text p a:hover {
+	color: #f7a23f;
+}
+
+.products  ul li .box-products .content-box-products .postdate {
+	padding: 1px 0px 0px 0px;
+}
+
+.products  ul li .box-products .content-box-products .author {
+	padding: 1px 0px 0px 0px;
+}
+
+.products  ul li .box-products .content-box-products .level {
+	float: right;
+	padding: 1px 0px 0px 0px;
+}
+
+.products  ul li .box-products .content-box-products .vote-star {
+	float: left;
+	padding: 1px 0px 0px 0px;
+}
+
+.products  ul li .box-products .content-box-products .price {
+	float: right;
+	font-size: 15px;
+	color: #ff6600;
+	margin-top: -4px;
+	height: 22px;
+}
+.products  ul li .box-products .content-box-products .price small {
+	font-size: 11px;
+	position: relative;
+	top: -5px;
+}
+/* --------------------- news view ------------------- */
+.news {
+	box-shadow: 5px 6px 30px 0px rgba(0,0,0,0.4);
+	margin: 10px 0px 20px 1.8%;
+	width: 92.2%;
+	padding: 2% 2.3% 0 2.3%;
+	background: #fff;
+}
+
+.news ul {
+	margin: 0px;
+	padding: 0px;
+}
+.news ul li {
+	display: block;
+	list-style: none;
+	margin: 0px;
+	padding: 0px 0px 2% 0px;
+	position: relative;
+}
+
+.news ul li .news-thumb {
+	display: inline-block;
+	width: 37%;
+	float: left;
+}
+
+.news ul li .text {
+	padding: 0px 0px 0px 2.5%;
+	width: 63%;
+	float: left;
+	position: relative;
+}
+
+.news ul li .text .inside {
+	display: table-cell;
+	height: auto;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.news ul li .text .inside a {
+	color: #f7a23f;
+	font: 11px "Georgia", Times New Roman, Times, serif;
+	display: inline-block;
+}
+
+.news ul li .text .inside a:hover {
+	color: #f7a23f;
+	text-decoration: none;
+}
+
+.news ul li .text p {
+	color: #5a5a5a;
+	font: 15px "Georgia", Times New Roman, Times, serif;
+	line-height: 1.3em;
+}
+
+.news ul li .text p a {
+	margin: 0px;
+	padding: 0px;
+	font: 30px "Georgia", Times New Roman, Times, serif;
+	color: #04509d;
+	line-height: 1em;
+	margin: 5px 0px 0px 0px;
+}
+
+.news ul li .text p a:hover {
+	color: #f7a23f;
+	text-decoration: none;
+}
+
+
+=======
+/* AN STYLE */
+.container { padding-right: 8px !important; padding-left: 0px !important; }
+//#header .container { height: 200px; }
+//.section-1 { padding-top: 15px; }
+.region-header-left { padding-top: 0px; }
+>>>>>>> c4be6c13bc74f23a53074148da1ca9033c29ca30
+>>>>>>> 3fedac83e7614199cafa528fa8f28d8f38b375e3

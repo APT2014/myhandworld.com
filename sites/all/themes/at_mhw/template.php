@@ -25,7 +25,6 @@
 /**
  * Preprocess variables for the html template.
  */
-/* -- Delete this line to enable.
 function adaptivetheme_subtheme_preprocess_html(&$vars) {
   global $theme_key;
 
@@ -38,7 +37,6 @@ function adaptivetheme_subtheme_preprocess_html(&$vars) {
   // $vars['classes_array'][] = css_browser_selector();
 
 }
-// */
 
 
 /**

@@ -16,28 +16,5 @@ function adaptivetheme_subtheme_form_system_theme_settings_alter(&$form, &$form_
 }
 // */
 function at_mhw_form_system_theme_settings_alter(&$form, &$form_state)  {
-		$form['social'] = array(
-		'#type' => 'fieldset',
-		'#title' => 'Social setting',
-		'#collapsible' => true,
-		'#collaped' => false,
-	);
-	$form['social']['social_display'] = array(
-		'#type' => 'checkbox',
-		'#title' => 'Display social icon',
-		'#default_value' => theme_get_setting('social_display', 'at_mhw'),
-		'#description' => 'Check this option to show social icon',
-	);
-	$form['social']['facebook_url'] = array(
-		'#type' => 'textfield',
-		'#title' => 'Facebook Url',
-		'#default_value' => theme_get_setting('facebook_url', 'at_mhw'),
-		'#description' => 'Enter facebook url',
-	);
-	$form['social']['twitter_url'] = array(
-		'#type' => 'textfield',
-		'#title' => 'Twitter Url',
-		'#default_value' => theme_get_setting('twitter_url', 'at_mhw'),
-		'#description' => 'Enter twitter url'
-	);
+
 }

@@ -2205,6 +2205,7 @@ padding-top: 0px;
 	-moz-border-radius: 10px;
 }
 
+<<<<<<< HEAD
 /* --------------------- guideline/products view ------------------- */
 .products ul
 {
@@ -2368,3 +2369,10 @@ padding-top: 0px;
 }
 
 
+=======
+/* AN STYLE */
+.container { padding-right: 8px !important; padding-left: 0px !important; }
+//#header .container { height: 200px; }
+//.section-1 { padding-top: 15px; }
+.region-header-left { padding-top: 0px; }
+>>>>>>> c4be6c13bc74f23a53074148da1ca9033c29ca30

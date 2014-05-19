@@ -16,11 +16,11 @@
   ;stylesheets[screen][] = css/widget119.css
   ;stylesheets[screen][] = css/boilerplate.css
   stylesheets[screen][] = css/style.css
-  stylesheets[screen][] = css/style-mobile.css
+  stylesheets[all][] = css/style-mobile.css
   ;stylesheets[screen][] = css/skeleton.css
   ;stylesheets[screen and (max-width:1366px)][] = css/skeleton-mobile.css
   stylesheets[screen][] = bootstrap/css/bootstrap.min.css
-  stylesheets[screen][] = css/mobile.css
+  ;stylesheets[screen][] = css/mobile.css
   
   ; Print - uncomment to load basic print styles.
   ; stylesheets[print][] = css/print.css

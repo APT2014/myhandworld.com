@@ -36,8 +36,14 @@ function adaptivetheme_subtheme_preprocess_html(&$vars) {
   // Browser/platform sniff - adds body classes such as ipad, webkit, chrome etc.
   // $vars['classes_array'][] = css_browser_selector();
 
+	drupal_add_js('sites/all/themes/at_mhw/bootstrap/js/bootstrap.min.js', array('type' => 'file', 'scope' => 'footer'));
 }
 
+function at_mhw_js_alter(&$javascript) {
+    $javascript['misc/jquery.js']['data'] = drupal_get_path('theme', 'at_mhw') .
+    '/scripts/jquery-1.8.3.min.js';
+    $javascript['misc/jquery.js']['version'] = '1.8.3';
+}
 
 /**
  * Process variables for the html template.

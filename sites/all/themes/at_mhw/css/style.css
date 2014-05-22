@@ -2372,3 +2372,10 @@ padding-top: 0px;
 //#header .container { height: 200px; }
 //.section-1 { padding-top: 15px; }
 .region-header-left { padding-top: 0px; }
+body { font-size: 14px !important; }
+#main-menu a { text-transform: uppercase; }
+/* Standard layout */
+@media only screen and (min-width:1025px) {
+.container { padding-left: 0px !important; padding-right: 0px !important; }
+.navbar-collapse { padding-left: 0px !important; padding-right: 0px !important; }
+}

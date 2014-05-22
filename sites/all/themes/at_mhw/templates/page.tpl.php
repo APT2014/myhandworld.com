@@ -26,12 +26,23 @@
 		<div id="main-wrapper">
 			<div class="container">
 					<div class="section-2 clearfix">
-					<div class="row"><div class="col-md-12">
-						<div class="search">
-							<?php if ($main_menu): ?>
-								<?php print render($page['main_menu']); ?>
-							<?php endif; ?>
-						</div></div></div>
+					
+						<div class="navbar navbar-inverse" role="navigation">
+							<div class="container">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+								</div>
+								<div class="collapse navbar-collapse">
+									<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('nav', 'navbar-nav')))); ?>
+								</div>
+							</div>
+						</div>
+					
 					</div><!-- end .section-2 -->
 					<div class="section-3 clearfix">
 						<?php if ($page['header']): ?>
@@ -48,9 +59,6 @@
 						<?php print render($page['content_top']); ?>
 					<?php endif; ?>
 					<div id="main" class="clearfix">
-						<div class="breadcrumb">
-							<?php print $breadcrumb; ?>
-						</div>
 						<?php if ($page['sidebar_first'] && $page['sidebar_second']): ?>
 							<aside id="sidebar-first" class="column col-md-2 alpha" role="complementary">
 								<div class="section">

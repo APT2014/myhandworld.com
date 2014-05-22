@@ -25,8 +25,7 @@
 		</header>
 		<div id="main-wrapper">
 			<div class="container">
-					<div class="section-2 clearfix">
-					
+					<div class="section-2 clearfix">					
 						<div class="navbar navbar-inverse" role="navigation">
 							<div class="container">
 								<div class="navbar-header">
@@ -41,8 +40,7 @@
 									<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('nav', 'navbar-nav')))); ?>
 								</div>
 							</div>
-						</div>
-					
+						</div>					
 					</div><!-- end .section-2 -->
 					<div class="section-3 clearfix">
 						<?php if ($page['header']): ?>
@@ -63,6 +61,7 @@
 							<aside id="sidebar-first" class="column col-md-2 alpha" role="complementary">
 								<div class="section">
 									<?php print render($page['sidebar_first']); ?>
+									
 								</div>
 							</aside>
 							<div id="content" class="column col-md-7 alpha omega" role="main">

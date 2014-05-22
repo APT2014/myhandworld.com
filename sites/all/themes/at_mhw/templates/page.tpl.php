@@ -48,6 +48,9 @@
 						<?php print render($page['content_top']); ?>
 					<?php endif; ?>
 					<div id="main" class="clearfix">
+						<div class="breadcrumb">
+							<?php print $breadcrumb; ?>
+						</div>
 						<?php if ($page['sidebar_first'] && $page['sidebar_second']): ?>
 							<aside id="sidebar-first" class="column col-md-2 alpha" role="complementary">
 								<div class="section">

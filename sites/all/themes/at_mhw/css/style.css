@@ -2263,6 +2263,179 @@ padding-top: 0px;
 	text-decoration: none;
 }
 
+.news-block {
+	box-shadow: 5px 6px 30px 0px rgba(0,0,0,0.4);
+	width: 100%;
+	background: #fff;
+}
+
+.news-block ul
+{
+	padding: 20px 0px 0px 0px;
+	margin: 0 0 0.75em 0;
+}
+
+.news-block  ul li {
+	width: 47%;
+	margin: 0px 0px 10px 1.8%;
+	padding: 7px 0px 0px 0px;
+	list-style: none;
+	float: left;
+	position: relative;
+	border: 1px solid #dddddd;	
+}
+
+.news-block  ul li:hover {
+	box-shadow: 0px 8px 30px rgba(0,0,0,0.5);
+}
+
+.news-block ul li .news-thumb {
+	display: inline-block;
+	width: 31%;
+	float: left;
+}
+
+.news-block ul li .text {
+	padding: 0px 0px 0px 2.5%;
+	width: 68%;
+	float: left;
+	position: relative;
+}
+
+.news-block ul li .text .inside {
+	display: table-cell;
+	height: auto;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.news-block ul li .text .inside a {
+	color: #f7a23f;
+	font: 11px "Georgia", Times New Roman, Times, serif;
+	display: inline-block;
+}
+
+.news-block ul li .text .inside a:hover {
+	color: #f7a23f;
+	text-decoration: none;
+}
+
+.news-block ul li .text p {
+	color: #5a5a5a;
+	font: 15px "Georgia", Times New Roman, Times, serif;
+	line-height: 1.3em;
+}
+
+.news-block ul li .text p a {
+	margin: 0px;
+	padding: 0px;
+	font: 30px "Georgia", Times New Roman, Times, serif;
+	color: #04509d;
+	line-height: 1em;
+	margin: 5px 0px 0px 0px;
+}
+
+.news-block ul li .text p a:hover {
+	color: #f7a23f;
+	text-decoration: none;
+}
+
+.block-views h2 {
+	padding-left: 20px;
+	font-size: 25px;
+	height: 36px;
+	line-height: 41px;
+	text-transform: uppercase;
+	background: #e5e5e5;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.products-block {
+	box-shadow: 5px 6px 30px 0px rgba(0,0,0,0.4);
+	width: 100%;
+	background: #fff;
+}
+
+.products-block ul
+{
+	padding: 0px 0px 0px 0px;
+	margin: 0 0 0.75em 0;
+}
+
+.products-block   ul li {
+	width: 23%;
+	margin: 0px 0px 10px 1.8%;
+	padding: 7px 0px 0px 0px;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+
+.products-block   ul li .box-products {
+	margin-left: 5px;
+	width: 89.7%;
+	height: 309px;
+	background: #fff;
+	padding: 4% 4% 0px 4%;
+	box-shadow: 0px 8px 30px rgba(0,0,0,0.5);
+	position: relative;
+}
+
+.products-block   ul li .box-products .products-thumb {
+	position: relative;
+}
+
+.products-block  ul li .box-products .products-thumb img {
+	width: 100%;
+}
+
+.products-block   ul li .box-products .products-thumb a {
+	display: block;
+	position: relative;
+}
+
+.products-block  ul li .box-products .content-box-products .text p a {
+	font: 16px "Georgia", Times New Roman, Times, serif;
+	color: #024e9b;
+	line-height: 1.1em;
+}
+
+.products-block  ul li .box-products .content-box-products .text p a:hover {
+	color: #f7a23f;
+}
+
+.products-block  ul li .box-products .content-box-products .postdate {
+	padding: 1px 0px 0px 0px;
+}
+
+.products-block  ul li .box-products .content-box-products .author {
+	padding: 1px 0px 0px 0px;
+}
+
+.products-block  ul li .box-products .content-box-products .level {
+	float: right;
+	padding: 1px 0px 0px 0px;
+}
+
+.products-block ul li .box-products .content-box-products .vote-star {
+	float: left;
+	padding: 1px 0px 0px 0px;
+}
+
+.products-block  ul li .box-products .content-box-products .price {
+	float: right;
+	font-size: 15px;
+	color: #ff6600;
+	margin-top: -4px;
+	height: 22px;
+}
+.products-block  ul li .box-products .content-box-products .price small {
+	font-size: 11px;
+	position: relative;
+	top: -5px;
+}
+
 /* AN STYLE */
 .container { padding-right: 8px !important; padding-left: 0px !important; }
 //#header .container { height: 200px; }

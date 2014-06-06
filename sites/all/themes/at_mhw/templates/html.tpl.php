@@ -90,6 +90,5 @@
   })();
 	</script>
 <!-- End Google Plus SDK -->
-
 </body>
 </html>

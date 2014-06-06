@@ -117,3 +117,24 @@ function at_mhw_theme() {
  
  return $items;
 }
+/**
+ * Override theme_breadrumb().
+ *
+ * Print breadcrumbs as a list, with separators.
+ */
+function at_mhw_breadcrumb($variables) {
+	$breadcrumb = $variables['breadcrumb'];
+
+	if (!empty($breadcrumb)) {
+		$breadcrumb[] = drupal_get_title();
+		$breadcrumbs = '<ol class="breadcrumb">';
+
+		$count = count($breadcrumb) - 1;
+		foreach ($breadcrumb as $key => $value) {
+		$breadcrumbs .= '<li>' . $value . '</li>';
+		}
+		$breadcrumbs .= '</ol>';
+
+		return $breadcrumbs;
+	}
+}

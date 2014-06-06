@@ -53,9 +53,50 @@ body#body {
 		width: auto;
 	}
 	
-	.products-block  ul li .box-products .content-box-products .level {
+	.products-block  ul li .box-products .content-box-products .level {	width: auto; }
+	
+	.guidelines  ul li .box-products {
+		height: auto;
+	}
+	
+	.guidelines  ul li .box-products .products-thumb img {
+		height: auto;
+	}
+	
+	.guidelines  ul li .box-products .content-box-products .text {
+		height: 50px;
+		padding: 0px 0px 19px 0px;
+	}
+	
+	.guidelines  ul li .box-products .content-box-products .vote-star {
 		width: auto;
 	}
+	
+	.guidelines  ul li .box-products .content-box-products .level {
+		width: auto;
+	}
+	
+	.guidelines-block  ul li .box-products {
+		height: auto;
+	}
+	
+	.guidelines-block  ul li .box-products .products-thumb img {
+		height: auto;
+	}
+	
+	.guidelines-block ul li .box-products .content-box-products .text {
+		height: 50px;
+		padding: 0px 0px 19px 0px;
+	}
+	
+	.guidelines-block ul li .box-products .content-box-products .vote-star {
+		width: auto;
+	}
+	
+	.pguidelines-block  ul li .box-products .content-box-products .level {
+		width: auto;
+	}
+	
 }
 
 @media only screen and (max-width: 1200px) {
@@ -98,10 +139,8 @@ body#body {
 	}
 	
 	.news-block ul li {
-		background: #fff;
 		margin: 0px 0px 2.5% 0px;
 		padding: 2.5%;
-		box-shadow: 5px 5px 30px rgba(0,0,0,3);
 		width: auto;
 	}
 	
@@ -205,9 +244,7 @@ body#body {
 	}
 	
 	.products-block ul li .box-products {
-		box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
 		width: auto;
-		background: #fff;
 		padding: 10px;
 		height: auto;
 		margin: 0px auto;
@@ -243,6 +280,127 @@ body#body {
 	}
 	
 	.products-block  ul li .box-products .content-box-products .level {
+		width: auto;
+		padding: 2px 0px 0px 0px;
+		float: right;
+	}
+	.guidelines {
+		width: 100%;
+		margin: 0px 0px 0px 0%;
+		padding: 5px 0px 0px 0px;
+	}
+	
+	.guidelines ul {
+		margin: 0px 0px 0px 2.7%;
+		width: 94.3%;
+	}
+	
+	.guidelines ul li {
+		padding: 7px 0px 0px 3px;
+		margin: 0px 0px 5px 0px;
+		float: none;
+		width: auto;
+	}
+	
+	.guidelines ul li .box-products {
+		box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.5);
+		width: auto;
+		background: #fff;
+		padding: 10px;
+		height: auto;
+		margin: 0px auto;
+	}
+	
+	.guidelines  ul li .box-products .products-thumb {
+		position: relative;
+		z-index: 10;
+		display: inline-block;
+		float: left;
+		margin-right: 1.3%;
+		width: 125px;
+	}
+	
+	.guidelines  ul li .box-products .products-thumb img {
+		height: auto;
+		width: 100%;
+	}
+	
+	.guidelines  ul li .box-products .content-box-products {
+		width: auto;
+	}
+	
+	.guidelines  ul li .box-products .content-box-products .text {
+		padding: 0px 0px 12px 0px;
+		height: 50px;
+	}
+	
+	.guidelines ul li .box-products .content-box-products .vote-star {
+		width: auto;
+		padding: 2px 0px 0px 0px;
+		float: left;
+	}
+	
+	.guidelines  ul li .box-products .content-box-products .level {
+		width: auto;
+		padding: 2px 0px 0px 0px;
+		float: right;
+	}
+	
+	.guidelines-block {
+		width: 100%;
+		margin: 0px 0px 0px 0%;
+		padding: 5px 0px 0px 0px;
+	}
+	
+	.guidelines-block ul {
+		margin: 0px 0px 0px 2.7%;
+		width: 94.3%;
+	}
+	
+	.guidelines-block ul li {
+		padding: 7px 0px 0px 3px;
+		margin: 0px 0px 5px 0px;
+		float: none;
+		width: auto;
+	}
+	
+	.guidelines-block ul li .box-products {
+		width: auto;
+		padding: 10px;
+		height: auto;
+		margin: 0px auto;
+	}
+	
+	.guidelines-block  ul li .box-products .products-thumb {
+		position: relative;
+		z-index: 10;
+		display: inline-block;
+		float: left;
+		margin-right: 1.3%;
+		width: 125px;
+	}
+	
+	.guidelines-block  ul li .box-products .products-thumb img {
+		height: auto;
+		width: 100%;
+	}
+	
+	.guidelines-block  ul li .box-products .content-box-products {
+		width: auto;
+	}
+	
+	.guidelines-block  ul li .box-products .content-box-products .text {
+		padding: 0px 0px 12px 0px;
+		height: 50px;
+	}
+	
+	.guidelines-block  ul li .box-products .content-box-products .vote-star {
+		width: auto;
+		padding: 2px 0px 0px 0px;
+		float: left;
+	}
+	
+	.guidelines-block  ul li .box-products .content-box-products .level {
 		width: auto;
 		padding: 2px 0px 0px 0px;
 		float: right;

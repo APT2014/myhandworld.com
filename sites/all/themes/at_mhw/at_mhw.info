@@ -78,8 +78,8 @@
 ;----------// Regions
 
   regions[header]            = Header
-  regions[header_left]       = Header Left
-  regions[header_right]      = Header Right
+  regions[user_menu]		 = User Menu
+  regions[header_top]        = Header Top
   regions[header_bottom]	 = Header Bottom
   regions[main_menu]         = Main Menu
   regions[sidebar_first]     = Sidebar First

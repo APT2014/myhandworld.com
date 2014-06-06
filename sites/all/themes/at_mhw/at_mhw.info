@@ -73,7 +73,7 @@
 
   ; ie_scripts[lte IE 8][] = scripts/my-script.js
   ;scripts[] = scripts/jquery-1.11.1.min.js
-  scripts[] = bootstrap/js/bootstrap.min.js
+  ;scripts[] = bootstrap/js/bootstrap.min.js
 
 ;----------// Regions
 

@@ -25,7 +25,7 @@
 /**
  * Preprocess variables for the html template.
  */
-function adaptivetheme_subtheme_preprocess_html(&$vars) {
+function at_mhw_preprocess_html(&$vars) {
   global $theme_key;
 
   // Two examples of adding custom classes to the body.

@@ -127,7 +127,7 @@ hide($content['links']);
     </footer>
   <?php endif; ?>
 	
-	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
 	<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>
 	<?php /*krumo($node->stream_publish);*/ ?>
   <div<?php print $content_attributes; ?>>
@@ -138,13 +138,13 @@ hide($content['links']);
     <nav<?php print $links_attributes; ?>><?php print $links; ?></nav>
   <?php endif; ?>
 
-	<?php /*if ($page && !$is_front): ?>
+	<?php if ($page && !$is_front): ?>
 	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
 	<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>
 	<br />
 	<div class="fb-comments" data-href="<?php print $_SERVER['SERVER_NAME'].'/'.drupal_get_path_alias('node/'.$node->nid); ?>" data-numposts="10" data-colorscheme="light"></div>
   
-	<?php endif;*/ ?>
+	<?php endif; ?>
 	
   <?php print render($content['comments']); ?>
   <?php print render($title_suffix); ?>

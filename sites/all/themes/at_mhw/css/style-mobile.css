@@ -11,6 +11,8 @@ body#body {
 	.block-gallery .views-row.views-row-4, .block-gallery .views-row.views-row-8 {
 		margin-right: 7px;
 	}
+	#block-custom-search-blocks-1 .form-type-select{ width: 180px; margin-bottom: 10px; }
+	#block-custom-search-blocks-1 .form-item.form-item-custom-search-blocks-form-1 input { width: 360px; }
 }
 /*-----------PHUONG ADD-------*/
 @media only screen and (max-width: 1040px) {
@@ -933,5 +935,7 @@ body#body {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	
+	#block-custom-search-blocks-1 .form-item.form-item-custom-search-blocks-form-1 input { width: 180px; float: left; margin-bottom: 10px; }
 
 }

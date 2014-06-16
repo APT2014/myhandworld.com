@@ -3,8 +3,12 @@
 <p>Sign up with your Facebook account or e-mail address.</p>
 
 <!-- Print Fb connect button if fboauth module loaded -->
-<div>
- <?php if (module_exists('fboauth')) { print fboauth_action_display('connect'); } ?>
+<div class="login-fb">
+	<?php if (module_exists('fboauth')) {
+		/*print fboauth_action_display('connect');*/
+		$link = fboauth_action_link_properties('connect');
+		print l(t('Sign in with Facebook'), $link['href'], array('query' => $link['query']));
+	} ?>
 </div>
 
 <!-- Print login form -->

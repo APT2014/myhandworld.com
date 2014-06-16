@@ -128,7 +128,9 @@ hide($content['links']);
   <?php endif; ?>
 	
 	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
-	<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>
+	<!--<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>-->
+	<div class="g-plus" data-action="share"></div>
+	<a href="<?php print $node_url; ?>" class="twitter-share-button" data-lang="en">Tweet</a><br>
 	<?php /*krumo($node->stream_publish);*/ ?>
   <div<?php print $content_attributes; ?>>
     <?php print render($content); ?>
@@ -140,7 +142,9 @@ hide($content['links']);
 
 	<?php if ($page && !$is_front): ?>
 	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
-	<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>
+	<!--<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>-->
+	<div class="g-plus" data-action="share"></div>
+	<a href="<?php print $node_url; ?>" class="twitter-share-button" data-lang="en">Tweet</a><br>
 	<br />
 	<div class="fb-comments" data-href="<?php print $_SERVER['SERVER_NAME'].'/'.drupal_get_path_alias('node/'.$node->nid); ?>" data-numposts="10" data-colorscheme="light"></div>
   

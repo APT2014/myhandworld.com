@@ -2650,3 +2650,24 @@ border-collapse: collapse;
 
 #content .section h1 { text-align: center; -webkit-margin-before: 0em; -webkit-margin-after: 0em; color: #327539; padding: 10px 0px 6px; font-size: 24px; background: #fff; }
 
+#edit-submit-google {
+	display: block;
+	background: url(../images/loginbutton.png) -45px -24px no-repeat;
+	width: 230px;
+	height: 40px;
+	text-indent: -9999px;
+	margin-top: 5px;
+	margin-left: 2px;
+	border-radius: 10px;
+}
+
+.login-fb a {
+	display: block;
+	background: url(../images/loginbutton.png) -300px -24px no-repeat;
+	width: 230px;
+	height: 40px;
+	text-indent: -9999px;
+	margin-top: 5px;
+	margin-left: 2px;
+	border-radius: 10px;
+}

@@ -8,7 +8,9 @@ sites/*/files
 sites/*/private
 sites/all/modules
 sites/all/libraries
-
+product
+New
+guideline
 # Ignore default text files
 .htaccess
 robots.txt

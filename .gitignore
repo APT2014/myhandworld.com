@@ -11,6 +11,7 @@ sites/all/libraries
 product
 New
 guideline
+img
 # Ignore default text files
 .htaccess
 robots.txt

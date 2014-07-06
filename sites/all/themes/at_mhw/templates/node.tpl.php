@@ -126,25 +126,30 @@ hide($content['links']);
       <p class="author-datetime"><?php print $submitted; ?></p>
     </footer>
   <?php endif; ?>
-	
-	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
+	<div class="social clearfix">
+	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+	<a href="<?php print $node_url; ?>" class="twitter-share-button" data-lang="en">Tweet</a>
 	<!--<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>-->
-	<div class="g-plus" data-action="share"></div>
-	<a href="<?php print $node_url; ?>" class="twitter-share-button" data-lang="en">Tweet</a><br>
+	<div class="g-plus" data-action="share"></div><br>
+	</div>
 	<?php /*krumo($node->stream_publish);*/ ?>
   <div<?php print $content_attributes; ?>>
     <?php print render($content); ?>
   </div>
 
   <?php if ($links = render($content['links'])): ?>
+	<div class="node-links">
     <nav<?php print $links_attributes; ?>><?php print $links; ?></nav>
+	</div>
   <?php endif; ?>
 
 	<?php if ($page && !$is_front): ?>
-	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div><br><br>
+	<div class="social clearfix">
+	<div class="fb-like" data-href="<?php print $node_url; ?>" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+	<a href="<?php print $node_url; ?>" class="twitter-share-button" data-lang="en">Tweet</a>
 	<!--<div class="g-plusone" data-href="<?php print $node_url; ?>"></div>-->
-	<div class="g-plus" data-action="share"></div>
-	<a href="<?php print $node_url; ?>" class="twitter-share-button" data-lang="en">Tweet</a><br>
+	<div class="g-plus" data-action="share"></div><br>
+	</div>
 	<br />
 	<div class="fb-comments" data-href="<?php print $_SERVER['SERVER_NAME'].'/'.drupal_get_path_alias('node/'.$node->nid); ?>" data-numposts="10" data-colorscheme="light"></div>
   

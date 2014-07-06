@@ -1,6 +1,6 @@
 <div id="page-wrapper">
 	<div id="page">
-		<div class="main-bg">
+		<div class="shadow">
 			<div id="pre-header" class="clearfix">
 				<div class="container">
 					<!-- #pre-header-inside -->
@@ -24,7 +24,6 @@
 						</div>
 					</div>
 				</div><!-- end .section-5 -->
-				<div class="section-5 clearfix">
 					<div class="container">
 						<div class="col-md-12">
 							<?php if ($logo): ?>
@@ -34,11 +33,9 @@
 							<?php endif; ?>
 						</div>
 					</div>
-				</div><!-- end .section-5 -->
-			</header>
-			<div id="main-wrapper">
-				<div class="container">
-						<div class="section-2 clearfix">					
+				<div class="section-2 clearfix">
+					<div class="container">
+						<div class="main-menu">
 							<div class="navbar navbar-inverse" role="navigation">
 								<div class="container">
 									<div class="navbar-header">
@@ -53,8 +50,14 @@
 										<?php print theme('links__system_main_menu', array('links' => $main_menu, 'attributes' => array('id' => 'main-menu', 'class' => array('nav', 'navbar-nav')))); ?>
 									</div>
 								</div>
-							</div>					
-						</div><!-- end .section-2 -->
+							</div>
+						</div>
+						<div class="pseudoStickyBlock" style="position: relative; display: block; height: 0px;"></div>
+					</div>
+				</div><!-- end .section-2 -->
+			</header>
+			<div id="main-wrapper">
+				<div class="container">
 						<div class="section-3 clearfix">
 							<?php if ($page['header']): ?>
 								<?php print render($page['header']); ?>
@@ -70,21 +73,14 @@
 							<?php print render($page['content_top']); ?>
 						<?php endif; ?>
 						<div id="main" class="clearfix">
-							<!-- #breadcrumb -->
-							<div id="breadcrumb" class="clearfix">
-								<!-- #breadcrumb-inside -->
-								<div id="breadcrumb-inside" class="clearfix">
 								<?php print $breadcrumb; ?>
-								</div>
-								<!-- EOF: #breadcrumb-inside -->
-							</div>
 							<?php if ($page['sidebar_first'] && $page['sidebar_second']): ?>
-								<aside id="sidebar-first" class="column col-md-2" role="complementary">
+								<div id="sidebar-first" class="column col-md-2" role="complementary">
 									<div class="section">
 										<?php print render($page['sidebar_first']); ?>
 										
 									</div>
-								</aside>
+								</div>
 								<div id="content" class="column col-md-7" role="main">
 									<div class="section">
 										<?php if ($title): ?>
@@ -98,17 +94,17 @@
 										<?php endif; ?>
 									</div>
 								</div>
-								<aside id="sidebar-second" class="column col-md-3" role="complementary">
+								<div id="sidebar-second" class="column col-md-3" role="complementary">
 									<div class="section">
 										<?php print render($page['sidebar_second']); ?>
 									</div>
-								</aside>
+								</div>
 							<?php elseif($page['sidebar_first']): ?>
-								<aside id="sidebar-first" class="column col-md-2" role="complementary">
+								<div id="sidebar-first" class="column col-md-2" role="complementary">
 									<div class="section">
 										<?php print render($page['sidebar_first']); ?>
 									</div>
-								</aside>
+								</div>
 								<div id="content" class="column col-md-10" role="main">
 									<div class="section">
 										<?php if ($title): ?>
@@ -136,11 +132,11 @@
 										<?php endif; ?>
 									</div>
 								</div>
-								<aside id="sidebar-second" class="column col-md-3" role="complementary">
+								<div id="sidebar-second" class="column col-md-3" role="complementary">
 									<div class="section">
 										<?php print render($page['sidebar_second']); ?>
 									</div>
-								</aside>						
+								</div>						
 							<?php else: ?>
 								<div id="content" class="column col-md-12" role="main">
 									<div class="section">
@@ -165,17 +161,17 @@
 		<!-- !Footer -->
 		<?php if ($page['footer'] || $attribution): ?>
 			<footer<?php print $footer_attributes; ?>>
-				<div class="footer-top-wrapper">
-					<div class="footer-top-shadow clearfix">
-						<div class="container">
-							<div class="col-md-12">
-								<?php print render($page['footer_top']); ?>
+				<div class="container">
+					<div class="footer-top">
+						<div class="col-md-12">
+							<div class="container">
+								<div class="row">
+							<?php print render($page['footer_top']); ?>
+							</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="footer-wrapper clearfix">
-					<div class="container">
+					<div class="footer">
 						<div class="col-md-12">
 							<?php print render($page['footer']); ?>
 						</div>
